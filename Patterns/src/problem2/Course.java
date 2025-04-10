@@ -8,7 +8,10 @@ public class Course {
 
 	private String name; // e.g. "Software Engineering"
 
-	public Course() {
+	public Course(String code, int number, String name) {
+		this.code = code;
+		this.number = number;
+		this.name = name;
 	}
 
 	public void setCode(String code) {
