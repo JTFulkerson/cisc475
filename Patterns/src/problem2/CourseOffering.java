@@ -83,7 +83,7 @@ public class CourseOffering {
 	}
 
 	public String toString() {
-		return course.getCode() + course.getNumber() + ": " + course.getName() + "[term=" + term + ", instructor="
+		return course.toString() + "[term=" + term + ", instructor="
 				+ instructor
 				+ ", room=" + building + " " + room + ", capacity=" + capacity
 				+ "]";
